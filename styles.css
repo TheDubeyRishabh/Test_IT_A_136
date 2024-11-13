@@ -1,0 +1,81 @@
+body, h1, h2, p, input, select, button, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#login-panel {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#login-panel input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+#login-panel button {
+  width: 85%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#login-panel button:hover {
+  background-color: #218838;
+}
+
+#dashboard {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.user-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+button#logout-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button#logout-btn:hover {
+  background-color: #c82333;
+}
+
+select {
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+ul#user-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul#user-list li {
+  margin: 10px 0;
+}
+
+ul#user-list li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul#user-list li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
